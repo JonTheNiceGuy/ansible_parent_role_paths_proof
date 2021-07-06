@@ -1,0 +1,4 @@
+- debug:
+        msg: "{{ ansible_parent_role_paths[0] | default('') }}"
+- include_role:
+        name: level_3
